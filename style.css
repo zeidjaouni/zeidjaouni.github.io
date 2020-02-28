@@ -1,0 +1,254 @@
+body{
+    background-color: lightyellow;
+}
+
+h1{
+    left: 50px;
+}
+
+
+.portrait{
+width: 800px;
+height: 800px;
+position: absolute;
+top: -40px;
+left: -100px;
+
+}
+.accomplishments{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 161px;
+    left: -81px;
+    }
+
+    .never{
+        width: 450px;
+        height:4400px;
+        position: absolute;
+        top: 500px;
+        left: 10px;
+        z-index: -1;
+        color: transparent;
+        }
+
+        .memorable{
+            width: 550px;
+            height: 550px;
+            position: absolute;
+            top: 780px;
+            left: -1px;
+            color: transparent;
+            z-index: 0;
+            }
+
+            .qualities{
+                width: 550px;
+                height: 550px;
+                position: absolute;
+                top: 800px;
+                left: -1px;
+                z-index: 0;
+
+                }
+
+                .name{
+                    width: 800px;
+                    height: 800px;
+                    position: absolute;
+                    top: -92px;
+                    left: 33px;
+                    color: transparent;
+
+                    }
+
+                    .hobbies{
+                        width: 800px;
+                        height: 800px;
+                        position: absolute;
+                        top:12px;
+                        left:-5px;
+
+
+                        }
+
+                        .pets{
+                            width: 800px;
+                            height: 800px;
+                            position: absolute;
+                            top: 296px;
+                            left: 10px;
+                        }
+
+                        .person{
+                            width: 800px;
+                            height: 800px;
+                            position: absolute;
+                            top: 206px;
+                            left: 67px;
+                        }
+
+                        .nickname{
+                            width: 800px;
+                            height: 800px;
+                            position: absolute;
+                            top:-137px;
+                            left: 237px;
+                            color: transparent;
+
+                            }
+
+                            .family{
+                                width: 800px;
+                                height: 800px;
+                                position: absolute;
+                                top: 48px;
+                                left: 202px;
+                                color: transparent;
+                                }
+
+                                .birthday{
+                                    width: 800px;
+                                    height: 800px;
+                                    position: absolute;
+                                    top: 33px;
+                                    left: 137px;
+                                    z-index:2;
+                                    color: transparent;
+
+                                    }
+
+                                    .lived{
+                                        width: 800px;
+                                        height: 800px;
+                                        position: absolute;
+                                        top: 131px;
+                                        left: 200px;
+                                        z-index: -1;
+                                        color: transparent;
+                                    }
+
+                                    .accomplishment{
+                                        width: 800px;
+                                        height: 800px;
+                                        position: absolute;
+                                        top: 131px;
+                                        left: 200px;
+                                        z-index: -1;
+                                        color: transparent;
+                                    }
+
+                                        .circle{
+                                            width: 800px;
+                                            height: 800px;
+                                            position: absolute;
+                                            top: 284px;
+                                            left: 106px;
+
+
+                                            }
+
+                                            .class1{
+                                                width: 800px;
+                                                height: 800px;
+                                                position: absolute;
+                                                top: 225px;
+                                                left: 219px;
+
+
+                                                }
+
+                                                .movie{
+                                                    width: 800px;
+                                                    height: 800px;
+                                                    position: absolute;
+                                                    top: 363px;
+                                                    left: 217px;
+
+
+                                                    }
+
+                                                    .color{
+                                                        width: 800px;
+                                                        height: 800px;
+                                                        position: absolute;
+                                                        top: 394px;
+                                                        left: 189px;
+
+
+                                                        }
+
+                                                        .sport{
+                                                            width: 800px;
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 390px;
+                                                            left: 51px;
+                                                        }
+
+                                                        .magazine{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 360px;
+                                                            left: 100px;
+                                                        }
+
+                                                        .show{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 222px;
+                                                            left: 105px;
+                                                        }
+
+                                                        .music{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 193px;
+                                                            left: 132px;
+                                                        }
+
+                                                        .sections{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 183px;
+                                                            left: 283px;
+                                                        }
+
+                                                        .memory{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 328px;
+                                                            left: -117px;
+                                                        }
+
+                                                        .teacher{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 377px;
+                                                            left: -177px;
+                                                        }
+
+                                                        .kids{
+                                                            height: 800px;
+                                                            position: absolute;
+                                                            top: 377px;
+                                                            left: 42px;
+                                                        }
+
+                                                        .never{
+                                                            height: 800px;
+                                                            width: 800px;
+                                                            position: absolute;
+                                                            top: 136px;
+                                                            left: -277px;
+                                                            z-index: 1;
+                                                        }
+                                                        .free{
+                                                            height: 800px;
+                                                            width: 800px;
+                                                            position: absolute;
+                                                            top: 183px;
+                                                            left: -151px;
+                                                            z-index: 1;
+                                                        }
