@@ -1,0 +1,146 @@
+
+body{
+    background-color: #ffed79;
+
+}
+
+h3{
+    color:black;
+    font-size: 90%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+.desert{
+  position: absolute;
+width: 100%;
+height:1000px;
+ top: 200px; 
+ padding-left: 0px;
+ padding-right: 0px;
+ z-index: 1;
+ 
+ 
+}
+.business-card{
+  width: 310px;
+  left: calc(50% - 155px);
+  position: absolute;
+  top: 147.5px;
+  z-index: -1;
+}
+
+  /* .card-cover:hover{
+        opacity: 0;
+  }
+
+  .card-cover{
+    position: absolute;
+    left: calc(50% - 200px);
+  width: 400px;
+  height:300px;
+   top: 150px; 
+  } */
+
+ .sun {
+     width: 600px;
+     height: 600px;
+     top: 90px;
+     position: absolute;
+     left: calc(50% - 300px);
+     z-index: 0;
+ }
+
+ .sun:hover{
+     opacity: 0;
+ 
+ }
+     
+  /* #card{
+      width:200px;
+      height:200px;
+      background-color: black; 
+  } */
+
+  p{
+        color:black;
+        font-size: 90%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+  }
+  @media only screen and (min-device-width : 375px) and (max-device-width : 812px) {
+  
+    body{
+      background-color: #ffed79;
+  
+  }
+  
+  h3{
+      color:black;
+      font-size: 90%;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+  
+  .desert{
+    position: absolute;
+  width: 100%;
+  height:100px;
+   top: 200px; 
+   padding-left: 0px;
+   padding-right: 0px;
+   z-index: 1;
+   
+   
+  }
+  
+    .card-cover:hover{
+          opacity: 0;
+    }
+  
+    .card-cover{
+      position: absolute;
+      left: calc(50% - 200px);
+    width: 400px;
+    height:300px;
+     top: 150px; 
+    }
+  
+   .sun {
+       width: 600px;
+       height: 600px;
+       top: 100px;
+       position: absolute;
+    
+       left: calc(50% - 300px);
+   }
+  
+   .sun:hover{
+       opacity: 0;
+   
+   }
+       
+    #card{
+        width:200px;
+        height:200px;
+        background-color: black; 
+    }
+  
+    p{
+          color:black;
+          font-size: 90%;
+          text-align: center;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+    }
+    .business-card{
+      width: 800px;
+      left: calc(50% - 150px);
+      position: absolute;
+      top: 144px;
+      z-index: -auto;
+    }
+  
+  
+  }

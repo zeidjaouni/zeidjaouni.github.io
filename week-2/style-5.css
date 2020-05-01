@@ -1,0 +1,29 @@
+.left{
+   
+    border: 1px solid red;
+    height: 600px;
+    width: 170px;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+}
+
+.center{
+   
+    border: 1px solid red;
+    height: 600px;
+    width: 170px;
+    top: 50px;
+    left: 400px;
+    position: absolute;
+}
+
+.right{
+   
+    border: 1px solid red;
+    height: 600px;
+    width: 170px;
+    top: 50px;
+    left: 700px;
+    position: absolute;
+}

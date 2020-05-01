@@ -1,0 +1,18 @@
+.top-box{
+   
+    border: 1px solid red;
+    height: 200px;
+    width: 450px;
+    top: 50px;
+    left: 200px;
+    position: absolute;
+}
+.bottom-box{
+   
+    border: 1px solid red;
+    height: 200px;
+    width: 450px;
+    top: 400px;
+    left: 200px;
+    position: absolute;
+}

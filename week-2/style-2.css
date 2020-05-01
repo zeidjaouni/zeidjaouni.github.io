@@ -1,0 +1,26 @@
+.upper-left-box{
+   
+    border: 1px solid red;
+    height: 200px;
+    width: 250px;
+    top: 50px;
+    left: 120px;
+    position: absolute;
+}
+
+.upper-right-box{
+    border: 1px solid red;
+    height: 200px;
+    width: 250px;
+    top: 55px;
+    left: 580px;
+    position: absolute;
+}
+.bottom-box{
+    border: 1px solid red;
+    height: 200px;
+    width: 250px;
+    top: 350px;
+    left: 350px;
+    position: absolute;
+}

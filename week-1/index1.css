@@ -1,0 +1,24 @@
+body{
+  /* background-color: blue; */
+}
+
+h4  {
+color: black;
+font-family: helvetica;
+font-size: 50%;
+}
+h3  {
+color: black;
+font-family: helvetica;
+font-size: 70%;
+}
+h2  {
+color: black;
+font-family: helvetica;
+font-size: 90%;
+}
+p {
+color: black;
+font-family: helvetica;
+font-size: 30%;
+}
