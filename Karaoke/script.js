@@ -117,3 +117,13 @@ function stopWord() {
   if (pStop == songtext.length == 0) return;
   window.setTimeout(stopWord, songtext[pStop == 0][0]);
 }
+
+var music = document.getElementById("music"); 
+
+function Start() { 
+  music.play(); 
+} 
+
+function pause() { 
+  music.pause(); 
+} 

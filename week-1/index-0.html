@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="/html/index.css" />
+  <link rel="stylesheet" href="index1.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,6 +25,7 @@
   font-family: courier;
   font-size: 30%;
 }
+
 .receipt{
 position: absolute;
 left: calc(50% - 150px);
@@ -39,12 +40,32 @@ p{
   font-size: 50%;
 }
 body{
-  background-color: grey;
+  background-color: white;
+}
+
+.button{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 20px);
+    position: absolute;
+    align-items: left;
+    animation: blinker 2s linear infinite;
+    opacity: 100%;
+    top: 20px;
+    left: 20px;
+
+
 }
 
 </style>
 
 <body>
+
+  <a class="button" href="index-1.html"><i class="ion-ios-arrow-down"></i></a>
+
+  <div class="receipt">
   <center>
     <h1>ZARA</h1>
     <br>
@@ -102,6 +123,7 @@ body{
       </p>
   
   </center>
+  </div>
 
 
 </body>

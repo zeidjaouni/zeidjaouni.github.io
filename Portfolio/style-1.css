@@ -11,7 +11,7 @@ p{
 }
 
 body{
-    background-color: orchid;
+    background-color: lightsteelblue;
 
 }
 
@@ -22,10 +22,76 @@ h1{
     font-family: 'Anton', sans-serif;
     top: 250px;
     position: relative;
- 
-
-      
+     
 }
+h2{
+    color: white;
+    Font-size: 60pt; 
+    text-align: left; 
+    font-family: 'Anton', sans-serif;
+    top: 250px;
+    position: relative;
+    padding-left: 30px;
+     
+}
+
+.projects {
+    text-decoration:none;
+    color: white;
+    Font-size: 30pt; 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    top: -10px;
+    position: relative;
+    display: block;
+    padding-bottom: 50px;
+ }
+
+ .RECprojects {
+    text-decoration:none;
+    color: white;
+    Font-size: 30pt; 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    top: -150px;
+    position: relative;
+    display: block;
+    padding-bottom: 50px;
+ }
+
+ #projects {
+    text-decoration:none;
+    color: white;
+    Font-size: 30pt; 
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    top: 250px;
+    position: relative;
+ }
+
+ #studio {
+    /* text-decoration:none; */
+    color: white;
+    Font-size: 30pt;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    top: 500px;
+    position: absolute;
+    width: 100%;
+    /* left: 306px; */
+
+ }
+
+ #lab {
+    /* text-decoration:none; */
+    color: white;
+    Font-size: 30pt;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    top: 580px;
+    position: absolute;
+    width: 100%;
+ }
 
 .about{
     color:black;
@@ -35,26 +101,27 @@ h1{
 
 .button{
     background-color: yellow;
-     border-radius: 50%;
-     width: 40px;
-     height: 40px;
-     left: calc(50% - 20px);
-     position: absolute;
-     align-items: center;
-     animation: blinker 2s linear infinite;
-     opacity: 100%;
-     top:  475px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 20px);
+    position: absolute;
+    align-items: left;
+    animation: blinker 2s linear infinite;
+    opacity: 100%;
+    top: 20px;
+    left: 20px;
 
 
 }
-@keyframes blinker {  
+/* @keyframes blinker {  
     50% { opacity: 0; }
-    }
+    } */
 .button:hover{
     background-color:rgb(0, 206, 0);
 }
 
-.circle{
+/* .circle{
     background-color: red;
      border-radius: 50%;
      width: 40px;
@@ -164,4 +231,4 @@ h1{
     margin: 0%;
     position: fixed;
     z-index: -1;
-  }
+  } */

@@ -1,6 +1,4 @@
-body{
-  /* background-color: blue; */
-}
+
 
 h4  {
 color: black;
@@ -21,4 +19,29 @@ p {
 color: black;
 font-family: helvetica;
 font-size: 30%;
+}
+
+.receipt{
+  position: absolute;
+  left: calc(50% - 150px);
+    width: 300px;
+    height: 850px;
+    background-color: white;
+  }
+
+  .button{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 20px);
+    position: absolute;
+    align-items: left;
+    animation: blinker 2s linear infinite;
+    opacity: 100%;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+
+
 }
