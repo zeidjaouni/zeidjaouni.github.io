@@ -62,6 +62,8 @@ $(document).ready(function() {
     ["</br> Nothing really matter to me. ", 1000],
     ["</br> Any way the wind blows. ", 1000],
   ];
+
+  
   var text = "";
   // [To add text color]
   $.each(songtext, function(a, b) {
@@ -100,30 +102,38 @@ $('#pause').on('click', function(e) {
 });
 
 var pCount = 0;
-// [To add text transform color]
+// [To transform text color]
 function nextWord() {
   $('#p' + pCount).css("color", "blue");
   pCount++;
-  if (pCount > songtext.length - 1) return;
+  if (pCount> songtext.length - 1) return;
   window.setTimeout(nextWord, songtext[pCount - 1][1]);
 }
-
+  
 
 var pStop = 0;
 // [To add text transform color]
 function stopWord() {
   $('#p' + pStop).css("color", "black");
   pStop++;
-  if (pStop == songtext.length == 0) return;
-  window.setTimeout(stopWord, songtext[pStop == 0][0]);
+  if (pStop> songtext.length - 1) return;
+  window.setTimeout(stopWord, songtext[pStop - 1][1]);
 }
 
-var music = document.getElementById("music"); 
+// var music = document.getElementById("music"); 
 
-function Start() { 
-  music.play(); 
-} 
+// function Start() { 
+//   music.play(); 
+// } 
 
-function pause() { 
-  music.pause(); 
-} 
+// function pause() { 
+//   music.pause(); 
+// } 
+
+
+  // $("#start").click(function(){
+  //   $(".music").play();
+  // });
+  // $("#pause").click(function(){
+  //   $(".music").stop();
+  // });

@@ -79,3 +79,10 @@ h3{
   left: 950px;
   position: absolute;
 }
+.image{
+  width: 500px;
+  position: fixed;
+  z-index: 2;
+  top: 20px;
+  left: 900px;
+}
