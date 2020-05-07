@@ -1,0 +1,1499 @@
+body{
+  overflow: hidden;
+}
+  
+.container{
+  width: 100%;
+    height: 100%;
+}
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    margin-left:160px ;
+    margin-right:160px ;
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: #ed3e37;
+    margin-left:160px ;
+    margin-right:160px ;
+    padding: 20px;
+  }
+
+  h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    top: 80px;
+}
+
+   h4 {
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    font-size: small;
+    font-weight: normal;
+    line-height: 1.8;
+}
+   
+    
+   h5 {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    
+  }
+
+  h6 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 20px;
+    top: 0px;
+    margin-top: 0;
+    position: absolute;
+  }
+  
+
+  .waldocover { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    transition: all .2s ease-in-out;
+    top: 200px;
+    left: 500px;
+  }
+  
+  .waldocover:hover {
+    transform: scale(1.1);
+  }
+
+  .waldocover1 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transition: all .2s ease-in-out;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .waldocover1:hover {
+    transform: scale(1.1);
+  }
+
+
+  .waldologo{
+    width: 360px;
+    height: 190px;
+    position: absolute;
+    z-index:-1;
+
+  }
+
+  .box{
+    width: 600px;
+    height: 400px;
+    background-color: #009af1;
+    position: absolute; 
+    left: calc(50% - 300px);
+    top: 200px;
+    z-index: -1px;
+  }
+
+  .wave{
+    width: 250px;
+    height: 300px;
+    margin-left: 0px;
+    left: calc(91.5% - 125px);
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  .yellowbox{
+    width: 250px;
+    height: 837px;
+    background-color: yellow;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    z-index: -1;
+
+  }
+
+  .yellowbox0{
+    width: 200px;
+    height: 837px;
+    background-color: yellow;
+    
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    margin-right: 0px;
+    left: 1240px;
+  }
+
+  .yellowbox1{
+    width: 200px;
+    height: 837px;
+    background-color: yellow;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    margin-left: 0px;
+    left: 0px;
+    
+  }
+
+  .aboutpara{
+    width: 290px;
+    top: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    position: absolute;
+    
+  }
+
+  .historypara{
+    width: 290px;
+    top: 215px;
+    left: 710px;
+    padding-right: 15px;
+   
+    float: left;
+    position: absolute;
+    
+  }
+
+  .historypara1{
+    width: 290px;
+    top: 283px;
+    left: 1060px;
+    padding-right: 15px;
+    
+    float: left;
+    position: absolute;
+  }
+  
+  .walking{
+    width: 350px;
+    height: 730px;
+    margin-top: 80px;
+    margin-left: 150px;
+    z-index: 1;
+  }
+
+  .facts1{
+   
+      width: 290px;
+      top: 215px;
+      left: 710px;
+      padding-right: 15px;
+     font-style: lighter;
+      float: left;
+      position: absolute;
+      
+    
+  }
+
+  .facts2{
+    width: 290px;
+    top: 215px;
+    left: 1060px;
+    padding-right: 15px;
+   font-style: lighter;
+    float: left;
+    position: absolute;  
+}
+
+.theory1{
+   
+  width: 290px;
+  top: 355px;
+  left: 710px;
+  padding-right: 15px;
+ font-style: lighter;
+  float: left;
+  position: absolute;
+
+}
+
+.theory2{
+  width: 290px;
+  top: 355px;
+  left: 1060px;
+  padding-right: 15px;
+ font-style: lighter;
+  float: left;
+  position: absolute;  
+}
+
+.scare{
+  width: 350px;
+  height: 500px;
+  /* margin-top: 300px; */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  /* margin-left: 150px; */
+  z-index: 1;
+  top: 338px;
+  position: absolute;
+}
+
+.world{
+  width:1200px;
+  height:1000px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  left: 130px;
+  z-index: -1;
+}
+
+.italy{
+  width: 35px;
+    height: 35px;
+    top: 335px;
+    left: 712px;
+    position: absolute;
+}
+
+.italy:hover{
+  transform: scale(2);
+}
+
+.red-arrow{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:280px;
+  left: 709px;
+  display: block;
+  -webkit-animation: action 1s infinite  alternate;
+  animation: action 0.5s infinite  alternate;
+}
+@-webkit-keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.newyork{
+  width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 331px;
+    left: 388px;
+}
+
+.LA{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 351px;
+  left: 213px;
+}
+
+.brazil{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 600px;
+  left: 490px;
+}
+
+.southafrica{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 652px;
+  left: 749px;
+}
+
+.egypt{
+  width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 394px;
+    left: 754px;
+}
+
+.india{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 425px;
+  left: 952px;
+}
+
+.UAE{
+  width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 408px;
+    left: 860px;
+}
+
+.australia{
+  width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 629px;
+    left: 1155px;
+}
+
+.italyP{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0; */
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.italywaldo{
+  width: 56px;
+  height: 83px;
+  position: absolute;
+  left: 604px;
+  top: 605px;
+  opacity: 0;
+}
+
+.egyptP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.egyptwaldo{
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  left: 1170px;
+  top: 216px;
+  opacity: 0;
+}
+
+.southafricaP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.southafricawaldo{
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  left: 690px;
+  top: 280px;
+  opacity: 0;
+}
+
+.UAEP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.UAEwaldo{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 740px;
+  top: 650px;
+  opacity: 0;
+}
+
+.indiaP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.indiawaldo{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 935px;
+  top: 155px;
+  opacity: 0;
+}
+
+.australiaP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.australiawaldo{
+  width: 92px;
+  height: 92px;
+  position: absolute;
+  left: 347px;
+  top: 575px;
+  opacity: 0;
+}
+
+.LAP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.LAwaldo{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 1009px;
+  top: 330px;
+  opacity: 0;
+}
+
+.NYP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.NYwaldo{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 1254px;
+  top: 534px;
+  opacity: 0;
+}
+
+.brazilP{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.brazilwaldo{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 372px;
+  top: 249px;
+  opacity: 0;
+
+}
+
+.blankwaldo{
+  width: 20px;
+  height: 40px;
+  top: 592px;
+  left: 202px;
+  position: absolute;
+  opacity: 0%;
+}
+
+.blankwaldo:hover{
+  opacity: 80%
+}
+
+p{
+  background-color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: yellow;
+    margin-right: 1300px;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.end{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.right{
+  width: 50px;
+  height:50px;
+  position: absolute;
+  left: 1325px;
+  top: 350px;
+}
+
+.left{
+  width: 50px;
+  height:50px;
+  position: absolute;
+  left: 60px;
+  top: 350px;
+}
+
+.episodes{
+  top: 200px;
+  left: 425px;
+  position: absolute;
+}
+
+.sound{
+  left: 1100px;
+  position: absolute;
+  top:10px;
+}
+
+.resize{
+  width: 50px;
+  height:50px;
+}
+
+/* main {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+} */
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 600px) {
+  aside {
+      width: 100%;
+  }
+
+  body{
+    overflow: hidden;
+  }
+    
+  .container{
+    width: 100%;
+      height: 100%;
+  }
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      background-color: yellow;
+      margin-left:160px ;
+      margin-right:160px ;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      background-color: #ed3e37;
+      margin-left:160px ;
+      margin-right:160px ;
+      padding: 20px;
+    }
+  
+    h3 {
+      margin-top: 80px;
+      text-align: center;
+      font-size: 30px;
+      color: black;
+      top: 80px;
+  }
+  
+     h4 {
+      font-size: 15px;
+      color: black;
+      text-align: left;
+      font-size: small;
+      font-weight: normal;
+      line-height: 1.8;
+  }
+     
+      
+     h5 {
+      text-align: left;
+      font-size: 20px;
+      color: black;
+      
+    }
+  
+    h6 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      background-color: yellow;
+      margin-left: 45%;
+      margin-right: 45%;
+      padding: 20px;
+      top: 0px;
+      margin-top: 0;
+      position: absolute;
+    }
+    
+  
+    .waldocover { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      transition: all .2s ease-in-out;
+      top: 200px;
+      left: 500px;
+    }
+    
+    .waldocover:hover {
+      transform: scale(1.1);
+    }
+  
+    .waldocover1 { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      transition: all .2s ease-in-out;
+      top: 5px;
+      left: 5px;
+    }
+    
+    .waldocover1:hover {
+      transform: scale(1.1);
+    }
+  
+  
+    .waldologo{
+      width: 360px;
+      height: 190px;
+      position: absolute;
+      z-index:-1;
+  
+    }
+  
+    .box{
+      width: 600px;
+      height: 400px;
+      background-color: #009af1;
+      position: absolute; 
+      left: calc(50% - 300px);
+      top: 200px;
+      z-index: -1px;
+    }
+  
+    .wave{
+      width: 250px;
+      height: 300px;
+      margin-left: 0px;
+      left: calc(91.5% - 125px);
+      position: absolute;
+      margin-top: 30%;
+    }
+  
+    .yellowbox{
+      width: 200px;
+      height: 837px;
+      background-color: yellow;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      position: absolute;
+      top: 0px;
+      left: 400px;
+      z-index: -1;
+  
+    }
+  
+    .yellowbox0{
+      width: 200px;
+      height: 837px;
+      background-color: yellow;
+      
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      position: absolute;
+      top: 0px;
+      margin-right: 0px;
+      left: 1240px;
+    }
+  
+    .yellowbox1{
+      width: 200px;
+      height: 837px;
+      background-color: yellow;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      position: absolute;
+      top: 0px;
+      margin-left: 0px;
+      left: 0px;
+      
+    }
+  
+    .aboutpara{
+      width: 290px;
+      top: 215px;
+      padding-left: 15px;
+      padding-right: 15px;
+      float: left;
+      position: absolute;
+      
+    }
+  
+    .historypara{
+      width: 290px;
+      top: 215px;
+      left: 710px;
+      padding-right: 15px;
+     
+      float: left;
+      position: absolute;
+      
+    }
+  
+    .historypara1{
+      width: 290px;
+      top: 283px;
+      left: 1060px;
+      padding-right: 15px;
+      
+      float: left;
+      position: absolute;
+    }
+    
+    .walking{
+      width: 350px;
+      height: 730px;
+      margin-top: 80px;
+      margin-left: 150px;
+      z-index: 1;
+    }
+  
+    .facts1{
+     
+        width: 290px;
+        top: 215px;
+        left: 710px;
+        padding-right: 15px;
+       font-style: lighter;
+        float: left;
+        position: absolute;
+        
+      
+    }
+  
+    .facts2{
+      width: 290px;
+      top: 215px;
+      left: 1060px;
+      padding-right: 15px;
+     font-style: lighter;
+      float: left;
+      position: absolute;  
+  }
+  
+  .theory1{
+     
+    width: 290px;
+    top: 355px;
+    left: 710px;
+    padding-right: 15px;
+   font-style: lighter;
+    float: left;
+    position: absolute;
+  
+  }
+  
+  .theory2{
+    width: 290px;
+    top: 355px;
+    left: 1060px;
+    padding-right: 15px;
+   font-style: lighter;
+    float: left;
+    position: absolute;  
+  }
+  
+  .scare{
+    width: 350px;
+    height: 500px;
+    /* margin-top: 300px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* margin-left: 150px; */
+    z-index: 1;
+    top: 338px;
+    position: absolute;
+  }
+  
+  .world{
+    width:1200px;
+    height:1000px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 130px;
+    z-index: -1;
+  }
+  
+  .italy{
+    width: 35px;
+      height: 35px;
+      top: 335px;
+      left: 712px;
+      position: absolute;
+  }
+  
+  .italy:hover{
+    transform: scale(2);
+  }
+  
+  .red-arrow{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:280px;
+    left: 709px;
+    display: block;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 0.5s infinite  alternate;
+  }
+  @-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  @keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  
+  .newyork{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 331px;
+      left: 388px;
+  }
+  
+  .LA{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 351px;
+    left: 213px;
+  }
+  
+  .brazil{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 600px;
+    left: 490px;
+  }
+  
+  .southafrica{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 652px;
+    left: 749px;
+  }
+  
+  .egypt{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 394px;
+      left: 754px;
+  }
+  
+  .india{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 425px;
+    left: 952px;
+  }
+  
+  .UAE{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 408px;
+      left: 860px;
+  }
+  
+  .australia{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 629px;
+      left: 1155px;
+  }
+  
+  .italyP{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+  
+  .italywaldo{
+    width: 56px;
+    height: 83px;
+    position: absolute;
+    left: 604px;
+    top: 605px;
+    opacity: 0;
+  }
+  
+  .egyptP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .egyptwaldo{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 1170px;
+    top: 216px;
+    opacity: 0;
+  }
+  
+  .southafricaP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .southafricawaldo{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 690px;
+    top: 280px;
+    opacity: 0;
+  }
+  
+  .UAEP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .UAEwaldo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 740px;
+    top: 650px;
+    opacity: 0;
+  }
+  
+  .indiaP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .indiawaldo{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 935px;
+    top: 155px;
+    opacity: 0;
+  }
+  
+  .australiaP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .australiawaldo{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    left: 347px;
+    top: 575px;
+    opacity: 0;
+  }
+  
+  .LAP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .LAwaldo{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1009px;
+    top: 330px;
+    opacity: 0;
+  }
+  
+  .NYP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .NYwaldo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1254px;
+    top: 534px;
+    opacity: 0;
+  }
+  
+  .brazilP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .brazilwaldo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 372px;
+    top: 249px;
+    opacity: 0;
+  
+  }
+  
+  .blankwaldo{
+    width: 20px;
+    height: 40px;
+    top: 592px;
+    left: 202px;
+    position: absolute;
+    opacity: 0%;
+  }
+  
+  .blankwaldo:hover{
+    opacity: 80%
+  }
+  
+  p{
+    background-color: white;
+      text-align: center;
+      font-size: 10px;
+      background-color: yellow;
+      margin-right: 1300px;
+      padding: 10px;
+      top: 0px;
+      left: 0px;
+      position: absolute;
+  }
+  
+  .end{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .right{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    left: 1325px;
+    top: 350px;
+  }
+  
+  .left{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    left: 60px;
+    top: 350px;
+  }
+  
+  .episodes{
+    top: 200px;
+    left: 425px;
+    position: absolute;
+  }
+  
+  .sound{
+    left: 1100px;
+    position: absolute;
+    top:10px;
+  }
+  
+  .resize{
+    width: 50px;
+    height:50px;
+  }
+} */
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 680px) {
+  aside {
+      display: none;
+  }
+}
+
+.waldocover {width: 400px; height: 400px;}
+.waldocover1 {width: 80px;height: 80px;}
+.waldologo {width:360px; height: 190px;}
+.box {width:600px; height:400px;}
+.wave {width:250px; height:300px;}
+.yellowbox {width:250px; height:837px;}
+.yellowbox0 {width:15%;}
+.yellowbox1 {width:15%;}
+.aboutpara {width: 20%;}
+.historypara {width: 20%;}
+.historypara1 {width: 20%;}
+.walking {width: 33.33%;}
+.facts1 {width: 290px;}
+.facts2 {width: 290px;}
+.theory1 {width: 20%;}
+.theory2 {width: 20%;}
+.scare {width: 350px;}
+.resize {width: 50%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ */
+
+
+
+
+
+
+
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400);
+
+* {
+  box-sizing: border-box;
+}
+
+/* html {
+  background: #111 url(https://codepen.io/images/classy_fabric.png);
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+} */
+
+/* body {
+  padding: 20px;
+} */
+
+
+
+/* .timer-group {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 100px;
+  top: 100px;
+}
+
+.timer {
+  border-radius: 50%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  width: 100px;
+}
+
+.timer:after {
+  background: #111 url(https://codepen.io/images/classy_fabric.png);
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 80px;
+  left: 10px;
+  position: absolute;
+  width: 80px;
+  top: 10px;
+}
+
+.timer .hand {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+}
+
+.timer .hand span {
+  border: 50px solid rgba(0, 255, 255, .4);
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(225deg);
+  width: 0;
+}
+
+.timer .hand:first-child {
+  transform: rotate(180deg);
+}
+
+.timer .hand span {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.timer .hand:first-child span {
+  animation-name: spin1;
+}
+
+.timer .hand:last-child span {
+  animation-name: spin2; 
+}
+
+.timer.hour {
+  background: rgba(0, 0, 0, .3);
+  height: 400px;
+  left: 0;
+  width: 400px;
+  top: 0;
+}
+
+.timer.hour .hand span {
+  animation-duration: 3600s;
+  border-top-color: rgba(255, 0, 255, .4);
+  border-right-color: rgba(255, 0, 255, .4);
+  border-width: 200px;
+}
+
+.timer.hour:after {
+  height: 360px;
+  left: 20px;
+  width: 360px;
+  top: 20px;
+}
+
+.timer.minute {
+  background: rgba(0, 0, 0, .2);
+  height: 350px;
+  left: 25px;
+  width: 350px;
+  top: 25px;
+}
+
+.timer.minute .hand span {
+  animation-duration: 60s;
+  border-top-color: rgba(0, 255, 255, .4);
+  border-right-color: rgba(0, 255, 255, .4);
+  border-width: 175px;
+}
+
+.timer.minute:after {
+  height: 310px;
+  left: 20px;
+  width: 310px;
+  top: 20px;
+}
+
+.timer.second {
+  background: rgba(0, 0, 0, .2);
+  height: 300px;
+  left: 50px;
+  width: 300px;
+  top: 50px;
+}
+
+.timer.second .hand span {
+  animation-duration: 1s;
+  border-top-color: rgba(255, 255, 255, .15);
+  border-right-color: rgba(255, 255, 255, .15);
+  border-width: 150px;
+}
+
+.timer.second:after {
+  height: 296px;
+  left: 2px;
+  width: 296px;
+  top: 2px;
+}
+
+.face {
+  background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    height: 296px;
+    left: 32px;
+    padding: 165px 40px 0;
+    position: absolute;
+    width: 296px;
+    text-align: center;
+    top: 55px;
+}
+
+
+.face p1 {
+    border-radius: 20px;
+    font-size: 76px;
+    font-weight: 400;
+    position: absolute;
+    top: 110px;
+    width: 260px;
+    left: 20px;
+  }
+
+
+@keyframes spin1 {
+  0% {
+    transform: rotate(225deg);
+  }
+  50% {
+    transform: rotate(225deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(225deg);
+  }
+  50% {
+    transform: rotate(405deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+} */ 

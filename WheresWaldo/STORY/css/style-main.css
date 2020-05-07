@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    background-color: white;
+}
+
+main {
+    margin: 22px;
+}
+ 
+#switch {
+    height: 60px;
+    width: 60px;
+    background-color: navy;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+    top: -25px;
+    position: relative;
+}
+ 
+    #switch:hover {
+        box-shadow: 0px 0px 3px navy;
+    }
+ 
+#status {
+    margin-top: 22px;
+    text-align: center;
+}
