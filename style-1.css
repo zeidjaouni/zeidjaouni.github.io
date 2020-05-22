@@ -11,12 +11,12 @@ p{
 }
 
 body{
-    background-color: lightsteelblue;
+    background-color: white;
 
 }
 
 h1{
-    color: white;
+    color: black;
     Font-size: 60pt; 
     text-align: center; 
     font-family: 'Anton', sans-serif;
@@ -25,7 +25,7 @@ h1{
      
 }
 h2{
-    color: white;
+    color: black;
     Font-size: 60pt; 
     text-align: left; 
     font-family: 'Anton', sans-serif;
