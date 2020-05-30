@@ -27,13 +27,9 @@ body{
 }
 .insta{
     width:20px;
-    position: relative;
-    /* float: right; */
-    align-items: center;
-    top: -38px;
-    z-index: -1;
+    position: absolute;
+    top: 235px;
     left: 1200px;
-    display:grid;
 }
 
 #box{
@@ -519,7 +515,7 @@ h4{
     }
 
     .email{
-        top:-590px;
+        top:-586px;
         left: 315px;
         position: relative;
         text-decoration: none;
@@ -530,11 +526,7 @@ h4{
     .insta{
         width:10px;
         position: relative;
-        /* float: right; */
-        align-items: center;
         top: -600px;
-        z-index: -1;
         left: 290px;
-        display:grid;
     }
   }
