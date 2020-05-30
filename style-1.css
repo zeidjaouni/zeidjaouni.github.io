@@ -17,6 +17,25 @@ body{
 
 }
 
+.email{
+    top:-50px;
+    left: 1250px;
+    position: relative;
+    text-decoration: none;
+    /* font-size: 1vw; */
+
+}
+.insta{
+    width:20px;
+    position: relative;
+    /* float: right; */
+    align-items: center;
+    top: -68px;
+    z-index: -1;
+    left: 1200px;
+    display:grid;
+}
+
 #box{
     text-align: center; 
     margin-top: 0px;
@@ -59,6 +78,18 @@ h3{
 }
 .h2:hover{
     color:blue;
+}
+
+h4{
+    color: black;
+    Font-size: 25pt; 
+    text-align: left; 
+    font-family: 'Anton', sans-serif;
+   margin-top: 20px;
+   padding-left: 115px;
+   /* margin-bottom: 500px; */
+    position: relative; 
+    text-decoration:none; 
 }
 .wave{
     width:1500px;
@@ -298,12 +329,12 @@ h3{
         text-align: left;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         z-index:-1;
-        position: absolute;
-        margin-top: 0px;
-        margin-left:480px;
-        margin-right: 100px;
+        position: relative;
+        margin-top: 230px;
+        margin-left:15px;
+        /* margin-right: 100px; */
         z-index: 1;  
-        line-height: 40px;   
+        line-height: 18px;   
     }
     
     body{
@@ -320,11 +351,11 @@ h3{
     
     h1{
         color: black;
-        Font-size: 40pt; 
-        text-align: left; 
+        Font-size: 28pt; 
+        text-align: center; 
         font-family: 'Anton', sans-serif;
        margin-top: 20px;
-       padding-left: 115px;
+       padding-left: 0px;
        margin-bottom: 0px;
         position: relative; 
         text-decoration:none; 
@@ -346,8 +377,8 @@ h3{
         Font-size: 10pt; 
         text-align: left; 
         font-family: 'Anton', sans-serif;
-       margin-top: 20px;
-       padding-left: 115px;
+       margin-top: 10px;
+       padding-left: 15px;
        /* margin-bottom: 500px; */
         position: relative; 
         text-decoration:none; 
@@ -355,16 +386,39 @@ h3{
     .h2:hover{
         color:blue;
     }
+
+    h4{
+        color: black;
+        Font-size: 25pt; 
+        text-align: left; 
+        font-family: 'Anton', sans-serif;
+       margin-top: 20px;
+       padding-left: 15px;
+       /* margin-bottom: 500px; */
+        position: relative; 
+        text-decoration:none; 
+    }
+
+    .insta{
+        width:10px;
+        position: relative;
+    }
+
     .wave{
-        width:800px;
+        width:400px;
+        height: 800px;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: -10px;
+        padding-top: 40px;
+        align-items: center;
     }
 
     
     .portrait{
-        width: 400px;
+        width: 40%;
         position: absolute;
+        margin-top: 20px;
+        margin-left: 15px;
     }
     
     .picture-grid{
@@ -386,16 +440,16 @@ h3{
     .projects {
         text-decoration:none;
         color: black;
-        Font-size: 15pt; 
+        Font-size: 8pt; 
         font-weight: normal;
-        text-align: left;
+        text-align: center;
         font-family: 'Anton', sans-serif;
         margin-top: 10px;
         margin-bottom: 0px;
-        padding-left: 90px;
+        /* padding-left: 90px; */
         position: relative;
-        display: inline-flexbox;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        padding-left: 15px;
      }
     
      .projects:hover{
@@ -462,5 +516,25 @@ h3{
         } */
     .button:hover{
         background-color:rgb(0, 206, 0);
+    }
+
+    .email{
+        top:-590px;
+        left: 315px;
+        position: relative;
+        text-decoration: none;
+        font-size: 3vw;
+        /* font-size: 1vw; */
+    
+    }
+    .insta{
+        width:10px;
+        position: relative;
+        /* float: right; */
+        align-items: center;
+        top: -600px;
+        z-index: -1;
+        left: 290px;
+        display:grid;
     }
   }
