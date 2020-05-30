@@ -363,12 +363,12 @@ h4{
     
     h2{
         color: black;
-        Font-size: 25pt; 
+        Font-size: 28pt; 
         text-align: center; 
         font-family: 'Anton', sans-serif;
        margin-top: 20px;
        padding-left: 0px;
-       /* margin-bottom: 500px; */
+       margin-bottom: 0px;
         position: relative; 
         text-decoration:none; 
     }
