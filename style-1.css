@@ -288,7 +288,7 @@ h3{
     z-index: -1;
   } */
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (min-device-width : 375px) and (max-device-width : 812px) {
     body {
       background-color: white;
     }
